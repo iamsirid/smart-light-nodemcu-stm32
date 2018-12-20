@@ -6,14 +6,14 @@
 #include<HttpClient.h>
 SoftwareSerial uart(13, 15, false, 256);
 
-#define APPID   "yesiknowiusedtocommitsensitivedatatogithubrepobutwhydontyoujustmindyourownbusiness"
-#define KEY     "yesiknowiusedtocommitsensitivedatatogithubrepobutwhydontyoujustmindyourownbusiness"
-#define SECRET  "yesiknowiusedtocommitsensitivedatatogithubrepobutwhydontyoujustmindyourownbusiness"
+#define APPID   "***REMOVED***"
+#define KEY     "***REMOVED***"
+#define SECRET  "***REMOVED***"
 
 #define ALIAS   "pieled"
 
-char* ssid = "yesiknowiusedtocommitsensitivedatatogithubrepobutwhydontyoujustmindyourownbusiness";
-char* password = "yesiknowiusedtocommitsensitivedatatogithubrepobutwhydontyoujustmindyourownbusiness";
+char* ssid = "SmartLight";
+char* password = "***REMOVED***";
 
 const int GREEN_LED = D0;
 const int RED_LED = D1;
